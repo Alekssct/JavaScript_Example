@@ -1,0 +1,46 @@
+body {
+    background-color: antiquewhite;
+    margin: 25px 10px 5px 400px;
+}
+
+h3 {
+    text-align: left;
+}
+
+#name_css {
+    margin-left: 300px;
+}
+
+button {
+    margin: 10px;
+}
+
+span {
+    text-align: left;
+    margin: 5px 5px 5px 5px;
+}
+
+input {
+    margin-left: 5px;
+}
+
+select {
+    margin-left: 5px;
+    width: 173px;
+}
+
+#last_name {
+    margin-left: 140px;
+}
+
+#gen {
+    margin-left: 75px;
+}
+
+#sky {
+    margin-left: 110px;
+}
+
+button {
+    width: 350px;
+}

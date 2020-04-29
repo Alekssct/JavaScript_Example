@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+    <style>
+        body {
+            background-image: url(img/background.jpg);
+            background-size: 100%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        tr {
+            margin: 10px;
+        }
+
+        td {
+            padding: 3px;
+            color: yellow;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        table {
+            display: table;
+            border: black;
+            border-style: solid;
+        }
+
+        #button1 {
+            text-align: center;
+            margin-left: 500px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Forum Board</h1>
+    <table id="table">
+        <tr>
+            <td>User name</td>
+            <td class="right">13-08-2019 16:46:54</td>
+        </tr>
+        <tr>
+            <td colspan="2">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Журчит буквоград всемогущая эта но до, безорфографичный возвращайся бросил повстречался, буквенных вопроса рот, за маленькая снова обеспечивает переулка, пояс предложения!
+                <hr>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <!-- message -->
+    <table>
+        <tr>
+            <td><span>Name</span></td>
+            <td><input type="text" id="loginName" size="100"></td>
+        </tr>
+        <tr>
+            <td valign="top"><span>Text message</span></td>
+            <td><textarea cols="101" rows="3" id="textMessage" size="500"></textarea></td>
+        </tr>
+    </table>
+    <button id="button1">Send</button>
+
+    <script src="1.js"></script>
+</body>
+
+</html>
